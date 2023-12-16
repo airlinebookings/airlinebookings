@@ -1,0 +1,42 @@
+
+.all-content{
+    background: rgb(38, 26, 26);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(airimage/cover.jpg);
+    background-size: cover;
+  
+}.all-content .img{
+    flex: 1 1 400px;
+}
+.all-content .img img{
+    width: 100%;
+}
+#feedback h1{
+padding: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(235, 232, 227);
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 5px;
+    border-bottom: 2px solid rgb(238, 236, 232);
+  
+}
+#messagebtn{
+    text-align: center;
+}
+#messagebtn button{
+    width: 200px;
+    height: 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#messagebtn button:hover{
+    background-color: rgb(14, 134, 161);
+}
+
+/* contact */
